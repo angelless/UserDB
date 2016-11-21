@@ -1,3 +1,10 @@
 package userDB
 
-public class main extends PluginBase implements Listener{}
+public class main extends PluginBase implements Listener{
+
+@Override
+public void onEnable(){
+thus.getServer().getPluginManager().registerEvents(this,this);}
+
+
+}
